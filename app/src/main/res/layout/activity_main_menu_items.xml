@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/menu_item_explore"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_explore"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="发现"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_myself"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_my"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="我的"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_language"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_language"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="语言"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_shake"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_shark"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="摇一摇"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <!-- 无效? -->
+    <LinearLayout
+        android:id="@+id/menu_item_scan"
+        android:visibility="gone"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_shark"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="扫一扫"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_setting"
+        android:visibility="gone"
+        style="@style/MenuItemLinerLayoutStyle">
+
+        <ImageView
+            style="@style/MenuItemLinerLayoutImageViewStyle"
+            android:contentDescription="ImageView"
+            android:background="@drawable/menu_icon_set"/>
+
+        <TextView
+            style="@style/MenuItemLinerLayoutTextViewStyle"
+            android:text="设置"/>
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+</LinearLayout>
