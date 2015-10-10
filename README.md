@@ -1,2 +1,1 @@
-# gitosc
-GIT@OSC Android Client
+Hello oschina
